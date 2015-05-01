@@ -1,0 +1,146 @@
+Title: Unsere Lehrer
+
+----
+Text: Inhalte werden in Kürze aktualisiert.
+
+----
+
+Teachers:
+
+Lehrer1:
+	Name: Abt, Cordula
+	Stelle:	Klassenleitung  
+	Klasse: 1 - 2c
+
+Lehrer2:
+	Name: Baumgartner, Gertraud		
+	Stelle: Fachlehrerin WTG
+	Klasee: -
+
+Lehrer3:
+	Name: Beer, Barbara		
+	Stelle: Klassenleitung
+	Klasse: 1 - 2g
+
+Lehrer4:
+	Name: Bickert, Stefanie			
+ 	Stelle: -
+	Klasse: 3 - 4f
+
+Lehrer5:
+	Name: Bitterolf, Andrea			
+	Stelle: Lin
+	Klasse: -
+
+Lehrer6:
+	Name: Blochum, Alexandra		
+	Stelle: Mobile Reserve
+	Klasse: -
+
+Lehrer7:
+	Name: Buchholz, Sabine			
+	Stelle: Förderlehrerin
+	Klasse: -
+
+Lehrer8:
+	Name: Dodel, Maria				
+	Stelle: Lin
+	Klasse: -
+
+Lehrer9:
+	Name:Fassbender, Petra		
+	Stelle: Klassenleitung 
+	Klasse: 1-2b
+
+Lehrer10:
+	Name:Datz-Fleischmann, Ingrid	
+	Stelle: Klassenleitung 
+	Klasse: 1-2d
+
+Lehrer11:
+	Name:Grünecker, Nora		
+	Stelle: Klassenleitung 
+	Klasse: 3-4c
+
+Lehrer12:
+	Name:Hausladen, Christoph		
+	Stelle: Pastoralreferent rk
+	Klasse: -
+
+Lehrer13:
+	Name:Jardi-Bock, Carolin		
+	Stelle: Klassenleitung 
+	Klasse: 3-4d
+
+Lehrer14:
+	Name:Kaiser, Adelheid			
+	Stelle: Klassenleitung 
+	Klasse: 1-2f
+
+Lehrer15:
+	Name:Korbelar, Melanie			
+	Stelle: Klassenleitung  
+	Klasse: 3-4e
+
+Lehrer16:
+	Name: Liebermann, Ulrike			
+	Stelle: Fachlehrerin WTG
+	Klasse: -
+
+Lehrer17:
+	Name: Linhardt, Sandra			
+ 	Stelle: -
+ 	Klasse: -
+
+Lehrer18:
+	Name: Lindner, Gabriele		
+	Stelle: Religionslehrerin ev
+	Klasse: -
+
+Lehrer19:
+	Name:Lorenz, Benjamin			
+	Stelle: Pfarrer ev.
+	Klasse: -
+
+Lehrer20:
+	Name:Mehringer, Sonja			
+	Stelle: KLin 
+	Klasse: 1-2e
+
+Lehrer21:
+	Name:Osterried, Judith			
+	Stelle: KLin 
+	Klasse: 3-4a
+
+Lehrer22:
+	Name:Sedlak, Nicola		
+	Stelle: Religionslehrerin rk
+	Klasse: -
+
+Lehrer23:
+	Name:Seitz, Regina		
+	Stelle: Klin 
+	Klasse: 3-4h
+
+Lehrer24:
+	Name:Scolaro, Angela		
+	Stelle: Klassenleitung 
+	Klasse: 1-2h
+
+Lehrer25:
+	Name:Schwaiger, Sabine		
+	Stelle: Fachlehrerin WTG
+	Klasse: -
+
+Lehrer26:
+	Name: Vötterle, Carolin		
+	Stelle: KLin 
+	Klasse: 3-4g
+
+Lehrer27:
+	Name: Würz, Linda			
+	Stelle: KLin 
+	Klasse: 3-4b
+
+
+----

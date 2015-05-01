@@ -1,0 +1,51 @@
+Title: Elternbeirat
+
+
+----
+Text:
+
+Inhalte werden in Kürze aktualisiert.
+
+----
+
+Parents: 
+
+1:
+	Name: Bermpohl, Johannes
+	Rolle: Vorsitzender
+	Email:
+2:
+	Name: Klewer, Heiko
+	Rolle: stellvertretender Vorsitzender
+	Email:
+3:
+	Name: Bayer, Eva-Maria
+	Rolle: Schriftführerin
+	Email:	
+4:
+	Name: Wollny, Andrea
+	Rolle: Mitglied
+	Email:	
+5:
+	Name: Kozan, Fatma
+	Rolle: Mitglied
+	Email:	
+6:
+	Name: Artner, Susanne
+	Rolle: Mitglied
+	Email:	
+7:
+	Name: Stegmüller, Kathrin
+	Rolle: Mitglied
+	Email:
+8:
+	Name: Hader, Jennifer
+	Rolle: Mitglied
+	Email:
+9:
+	Name: Bösch, Barbara
+	Rolle: Mitglied
+	Email:
+
+
+----

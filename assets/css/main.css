@@ -1,0 +1,458 @@
+/*
+
+Kirby Starterkit
+
+Author: Bastian Allgeier / Sascha Lack
+URL:    http://getkirby.com
+Email:  support@getkirby.com
+
+*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,600,700);
+
+
+/* Reset
+-------------------------------------------------- */
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+article, aside, details, figcaption, figure,
+footer, header, hgroup, main, nav, section, summary {
+  display: block;
+}
+
+
+/* Pix
+-------------------------------------------------- */
+img {
+  display: block;
+  max-width: 100%;
+}
+
+
+/* Links
+-------------------------------------------------- */
+a {
+  color: #000;
+  text-decoration: none;
+  transition: color .3s, background .3s, border .3s;
+}
+a:hover {
+  color: #2265BD;
+}
+
+
+/* Clearfix
+-------------------------------------------------- */
+.cf:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* Site
+-------------------------------------------------- */
+html {
+  height: 101%;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0 auto;
+  font-size: 16px;
+  line-height: 20px;
+  /*padding: 1.5em;
+  max-width: 50em;*/
+  background: #f8f8f8;
+  color: #222;
+}
+
+
+/* Header
+-------------------------------------------------- */
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  background: rgba(255, 255, 255, 0.75);
+  border-bottom: 1px solid #bfbfbf;
+  margin-bottom: 1.5em;
+  z-index: 1000;
+}
+.logo {
+  opacity: 1.0;
+  display: block;
+  margin-bottom: 1.5em;
+  padding-top: 10px;
+}
+
+.logo:after{
+  content:'Grundschule Augsburg Hochzoll-Süd';
+  padding-left: 20px;
+  padding-top: 30px;
+  float: right;
+  position: absolute;
+  top: 0;
+  left:6em;
+}
+.logo img {
+  opacity: 1.0;
+  width: 4em;
+}
+
+
+/* Navigation
+-------------------------------------------------- */
+.menu a {
+  display: block;
+  color: #8716fa;
+}
+.menu a:hover {
+  color: #2265BD;
+  text-decoration: none;
+}
+.menu .active {
+  color: #842461;
+}
+.menu li {
+  list-style: none;
+}
+.menu > li {
+  position: relative;
+}
+.menu > li > a {
+  padding: .35em 0;
+  border-top: 1px solid #ddd;
+  font-weight: 600;
+}
+
+.submenu {
+  position: absolute;
+  z-index: 1;
+  display: none;
+  left: 1em;
+  background: rgba(255, 255, 255, 0.5);
+}
+.submenu:before {
+  position: absolute;
+  z-index: -1;
+  content: '';
+  top: -.5em;
+  left: 0;
+  border-top: .5em solid transparent;
+  border-bottom: .5em solid transparent;
+  border-left: .5em solid #fff;
+}
+.submenu li {
+  border-bottom: 1px solid #444;
+  
+}
+.submenu a {
+  padding: .5em 1.5em;
+  font-size: .9em;
+  font-weight: 300;
+  color: #842461;
+  background: rgba(255, 255, 255, 0.5);
+  white-space: nowrap;
+}
+.submenu a:hover {
+  background: #fff;
+  color: #2265BD;
+}
+
+@media screen and (min-width: 40em) {
+ 
+  .logo {
+    opacity: 1.0;
+    float: left;
+    margin-left: 40px;
+  }
+  .menu {
+    opacity: 1.0;
+    float: right;
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+  .menu > li {
+    float: left;
+  }
+  .menu > li > a {
+    padding: 0 20px;
+    border: 0;
+  }
+  .menu > li:hover .submenu {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 1280px){
+
+.header {
+ 
+  height: 60px;
+}
+
+.menu {
+    opacity: 1.0;
+    float: right;
+    margin-top: 15px;
+    margin-right: 40px;
+  }
+  .menu > li {
+    float: left;
+  }
+  .menu > li > a {
+    padding: 0 20px;
+    border: 0;
+    font-size: 12px;
+    font-weight:400;
+  }
+  .menu > li:hover .submenu {
+    display: block;
+  }
+
+}
+
+
+/* Headings
+-------------------------------------------------- */
+h1 {
+  font-size: 2.5em;
+  line-height: 1.25em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+
+.welcome{
+  width:600px;
+  height: 160px;
+  margin: auto;
+  padding:20px;
+  position: absolute;
+  top: 75%; 
+  left: 1em; 
+  bottom: 0; 
+  word-break: normal;
+  /*top:33%;
+  left: 50%;*/
+  z-index: 5;
+  font-weight: 700;
+  font-size:200%;
+  text-transform: uppercase;
+  color: #fff;
+  text-shadow: #3E3E3E 0.5px 2px 5;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1.25em;
+  font-weight: 300;
+  margin-bottom: .5em;
+  color: #842461;
+}
+h3 {
+  font-size: 1.4em;
+  line-height: 1.5em;
+  font-weight: 400;
+  margin-bottom: .5em;
+}
+h4 {
+  font-size: 1.125em;
+  font-weight: 600;
+  line-height: 1.5em;
+  margin-bottom: .5em;
+  color: #842461;
+}
+h1 a, h2 a, h3 a, h4 a {
+  color: inherit;
+  border: 0 !important;
+}
+
+
+
+/* Main
+-------------------------------------------------- */
+.main {
+  padding: 200px 40px 40px 40px;
+  border-bottom: 2px solid #2265BD;
+  max-width: 960px;
+  margin: 0 auto;
+  background: #fff;
+   box-shadow: 0px 2px 4px rgba(0,0,0,0.125);
+
+}
+.main hr {
+  margin: 3em 0;
+  height: 2px;
+  background: #ddd;
+}
+.main p,
+.main figure,
+.main ul,
+.main ol {
+  margin-bottom: 1.5em;
+}
+.main a {
+  border-bottom: 2px solid #ddd;
+}
+.main a:hover {
+  border-color: #222;
+}
+
+/* Background Image */
+
+section{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+
+/* Text blocks */
+.text ul,
+.text ol {
+  margin-left: 1em;
+}
+
+blockquote{
+  padding: 20px 0 20px 40px;
+  font-style: italic;
+  font-size: 18px;
+  color: #7a7a7c;
+}
+
+/* Images Profiles */
+
+.avatar{
+  width: 200px;
+  height: 260px;
+  margin: 0 10px 20px 10px;
+  position: relative;
+  
+}
+
+/* Table */
+
+table{
+  width:100%;
+  background: #f8f8f8;
+  border-radius: 0.3em;
+  border-collapse: collapse;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.125);
+  
+}
+
+tr{
+  width: 100%;
+  text-align: center;
+}
+
+th{
+  border-bottom: 1px solid #bfbfbf;
+  color: #2265BD;
+  font-size: 0.75em;
+  font-weight: 600;
+  padding: 0.5em 1em;
+  text-align: left;
+}
+
+td {
+  color: #9D9792;
+  font-weight: 400;
+  font-size: 0.9em;
+  padding: 0.65em 1em;
+  text-align: left;
+}
+/* Project meta
+-------------------------------------------------- */
+.meta {
+  margin-bottom: 1.5em;
+}
+.meta li {
+  float: left;
+  list-style: none;
+  margin-right: 2em;
+  color: red;
+}
+.meta li b {
+  font-weight: 400;
+  color: #000;
+  padding-right: .25em;
+}
+
+
+/* Project teaser
+-------------------------------------------------- */
+.teaser {
+  list-style: none;
+}
+.teaser li {
+  margin-bottom: 1.5em;
+  list-style: none;
+}
+@media screen and (min-width: 50em) {
+  .teaser li {
+    float: left;
+    width: 30%;
+    margin-left: 5%;
+  }
+  .teaser li:first-child {
+    margin-left: 0;
+  }
+}
+
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  padding: 1em 0;
+}
+.nextprev a {
+  border: 0;
+}
+.nextprev .prev {
+  float: left;
+}
+.nextprev .next {
+  float: right;
+}
+
+
+/* Footer
+-------------------------------------------------- */
+
+
+footer {
+  padding: 1em 40px 1.5em 40px;
+  font-size: .8em;
+  bottom: 1.5em;
+  max-width: 960px;
+  margin: 40px auto;
+  background: #fff;
+  box-shadow: 0px 2px 4px rgba(0,0,0,0.125);
+ 
+}
+.copyright {
+  float: left;
+}
+.colophon {
+  float: right;
+}
+.colophon a b {
+  color: red;
+  padding-left: .25em;
+}
